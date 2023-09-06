@@ -1,0 +1,138 @@
+.h1{
+    font-family: lucida calligraphy;
+    font-size: 33px;
+ 
+}
+body{
+    background:linear-gradient(to right,black, rgba(255, 228, 196, 0.39));
+    margin: 0px;
+    padding: 0px;
+
+}
+.div1{
+    margin-top: 6%;
+    margin-bottom: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+}
+
+.div3{
+    /* text-align: center; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.text{
+    text-decoration: none;
+    font-family: lucida calligraphy;
+    font-size: 25px;
+    color:black ;
+}
+.text:hover{
+    transform: scale(1.1);
+    color: blue;
+}
+.formdiv{
+   
+background-color:  #FFFAA0;
+}
+.btn{
+    width: 250px;
+    height: 50px;
+}
+.footer{
+    padding-right: 70px;
+}
+.footer a i{
+   color:black;
+   border: 1px solid black;
+   border-radius: 50px;
+   font-size: 20px;
+   margin-top: 30px;
+   margin-left: 67px;
+   margin-bottom: 70px;
+   background-color: blue;
+   }
+.footer a i:hover{
+    background-color:darkblue;
+    transform: scale(1.3);
+}
+.fdivfooter{
+    font-size: 18px;
+}
+@media(max-width:1024px){
+    .footer a i{
+        margin-left: 44px;
+    }
+    .footer {
+        padding-right: 20px;
+    }
+}
+
+@media(max-width:768px){
+.div1{
+    margin-top: 11%;
+}
+}
+
+@media (max-width:460px){
+    .h1{
+        font-size: 25px;
+    }  
+    .fdivfooter{
+        font-size: 18px;
+        color: whitesmoke;
+    }
+    .footer a i {
+        margin-left: 12px;
+    }
+}
+
+@media(max-width:426px){
+    .div1{
+        margin-top: 16%;
+    }
+    .h1{
+        font-size: 27px;
+    }
+    .footer {
+        padding-right: 0px;
+    }
+    .footer a i {
+        margin-left: 17px;
+    }
+    .fdivfooter {
+        font-size: 16px;
+    }
+}
+
+    @media(max-width:376px){
+        .h1{
+            font-size: 19px;
+        }
+        .footer {
+            padding-right: 0px;
+        }
+        .footer a i {
+            margin-left: 10px;
+        }
+        .fdivfooter {
+            font-size: 14px;
+        }
+    }    
+
+    @media(max-width:321px){
+    .btn {
+        width: 200px;
+        height: 45px;
+    }
+    .footer a i {
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 36px;
+    }
+    .fdivfooter {
+        font-size: 13px;
+    }
+
+}
